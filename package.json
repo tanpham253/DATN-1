@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "use-reducer-logger": "^1.0.2"
+  },
+  "name": "datn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install --force  && cd ../frontend && npm install --force && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanpham253/DATN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanpham253/DATN/issues"
+  },
+  "homepage": "https://github.com/tanpham253/DATN#readme",
+  "description": ""
+}
